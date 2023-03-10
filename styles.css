@@ -102,7 +102,7 @@
     align-items: center;
    }
 
-   .sub-head > h2 {
+    h2 {
     font-size: 2.7rem;
     color: white;
     padding: 0;
@@ -148,3 +148,35 @@
     font-size: 20px;
     font-weight: bold;
   }
+
+  #contact {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #303841;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #contact > h2  {
+    font-size: 3.7rem;
+    margin: 0;
+   }
+
+   #contact > p  {
+    font-size: 1.7rem;
+    margin: 0;
+    font-weight: lighter;
+    font-style: italic;
+   }
+
+   .social-icons {
+    width: 300px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+   }
